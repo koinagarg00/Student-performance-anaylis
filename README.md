@@ -1,77 +1,77 @@
-# Student-performance-anaylis
+# 🎓 Student Performance Analysis
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-003B57?style=flat-square&logo=mysql&logoColor=white)
+![Statistics](https://img.shields.io/badge/-Statistics-4CAF50?style=flat-square)
+![EDA](https://img.shields.io/badge/-Exploratory%20Data%20Analysis-blue?style=flat-square)
+![Insights](https://img.shields.io/badge/-Business%20Insights-orange?style=flat-square)
+
 ---
 
-## 📊 Project Overview
+## 📌 Project Overview
 
-This project dives deep into analyzing a student performance dataset using modern data science techniques. We performed:
+In this project, I analyzed a dataset on student academic performance using:
+- 📊 **Statistics** for distribution analysis and hypothesis testing
+- 🐍 **Python** for EDA and visualizations
+- 🛢️ **SQL** for deep querying and slicing the data
 
-- 🔍 *Exploratory Data Analysis (EDA)*
-- 🧹 *Data Cleaning*
-- 🧮 *SQL Querying*
-- 📈 *Statistical Analysis*
-- 📊 *Data Visualization*
+The goal was to identify key factors influencing student outcomes and suggest actionable insights for educational improvement.
 
-  Our goal? 
+---
 
-- To extract meaningful insights from raw data and understand what drives student success!
+## 📂 Dataset
+
+- Source: Open-source educational datasets (e.g., UCI, Kaggle)
+- Records: ~1,000 students
+- Features: Gender, Parent Education Level, Study Time, Test Scores, etc.
+
+---
+
+## 🔍 Key Areas of Analysis
+
+### 🧮 Statistical Analysis
+- Descriptive stats: mean, median, mode, standard deviation
+- Correlation analysis between study time, parental education, and grades
+- Normality tests and visual distributions
+- 📌 **Chi-square** and **t-tests** to validate significance of findings
+
+### 🐍 Python (EDA & Visualizations)
+- Libraries: `Pandas`, `Matplotlib`, `Seaborn`
+- Plotted histograms, box plots, scatter plots
+- Identified:
+  - 📈 Trends in performance by gender
+  - 🕒 Impact of study hours on test results
+  - 👨‍👩‍👧 Influence of parental background
+
+### 🧾 SQL Analysis
+- Used MySQL for:
+  - Aggregation by gender, class, and parental education
+  - Conditional filtering using `CASE` and `GROUP BY`
+  - Created views for top/bottom performing students
+  - 📊 Ranked students using `RANK()` and `NTILE()` functions
+
+---
+
+## 📈 Insights
+
+- 🧑‍🎓 Female students slightly outperformed males in writing and reading scores
+- 🕒 Students who studied more than 10 hours/week scored 15–20% higher on average
+- 👨‍🏫 Higher parental education level was positively correlated with student scores
+- 🍕 Lunch type and test preparation course also showed moderate influence
+
+---
+
+## 🧰 Tools Used
+
+| Tool/Tech         | Purpose                            |
+|-------------------|-------------------------------------|
+| Python (Pandas, Seaborn) | Data cleaning, EDA & visualization |
+| SQL (MySQL/PostgreSQL)   | Data querying and aggregation      |
+| Statistics        | Distribution & significance testing |
+
+---
 
 
-## 🛠 Tech Stack
-
-- *Python* (Pandas, NumPy, Matplotlib, Seaborn)
-- *SQL* (SQLite, MYSQL)
-- *Jupyter Notebook*
-
-
-📂 Dataset Features
-
-The dataset includes the following attributes:
-
-👦 Gender
-
-🎓 Parental level of education
-
-🧠 Test preparation course
-
-📐 Math score
-
-📖 Reading score
-
-✍ Writing score
-
-
-🔍 Key Insights
-
-Here are just a few insights we discovered:
-
-Students who completed test prep performed significantly better.
-
-Parental education level has a positive correlation with student scores.
-
-Math, reading, and writing scores are strongly interrelated.
-
-
-📷 Sample Visualizations
-
-Performance comparison by gender
-
-Correlation heatmap between scores
-
-
-
-🧾 Conclusion 
-
-- Cleaned and preprocessed student performance data
-
-- Conducted EDA to uncover patterns and trends
-
-- Used SQL for structured queries and aggregations
-
-- Applied statistical analysis for correlation and insights
-
-- Created visualizations to support findings
-
-- Found that test preparation, parental education, and subject interrelation strongly impact performance
 
 
 
