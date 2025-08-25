@@ -71,6 +71,9 @@ The goal was to identify key factors influencing student outcomes and suggest ac
 
 ---
 
+| **Tags**                                                                                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `#Python` `#Pandas` `#EDA` `#DataVisualization` `#Matplotlib` `#Seaborn` `#SQL` `#Statistics` `#ABTesting` `#ZScore` `#HypothesisTesting` `#DataAnalytics` `#StudentPerformanceAnalysis` |
 
 
 
